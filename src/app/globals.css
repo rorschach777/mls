@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.centered-message {
+  display:block;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.centered-message > span {
+  display: block;
+  width: 100%;;
+}
+
+.centered-message > span:nth-child(2){
+  font-size: 13px;
+  color: gray;
+}
