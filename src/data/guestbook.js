@@ -1,4 +1,4 @@
-{
+export const guestbookData = {
     posts: [
         {
             author: "George",
