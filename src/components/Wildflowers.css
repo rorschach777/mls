@@ -1,0 +1,14 @@
+.wild-flowers{
+    width: 80rem;
+    max-width: 100%;
+    min-width: 25rem;
+}
+.wild-flowers img {
+    display: block;
+    margin: 0 auto;
+    max-width: inherit;
+}
+.bepositive{
+    position: relative;
+    top: -8rem;
+}

@@ -1,0 +1,56 @@
+.insta-grid {
+    height: auto;
+    width: 80vw;
+    padding: 25px;
+    max-width: 90rem;
+}
+
+.insta-grid-row:nth-child(even)  div.insta-grid-column:first-child,  .insta-grid-row:nth-child(even) div.insta-grid-mosaic-container:first-child {
+  order: 2;
+}
+
+.insta-grid-row, .insta-grid-row > div, .insta-grid-mosaic, .insta-grid-mosaic > div, .insta-grid-mosaic-item    {
+    display: flex;
+}
+
+.insta-grid-row, .insta-grid-mosaic > div.insta-grid-mosaic-container {
+    width: 100%;
+    background-color: lightgray;
+    aspect-ratio: 16/9 ;
+    color: black;
+    display: flex;
+}
+
+
+.insta-grid-row > div, .insta-grid-mosaic, .insta-grid-mosaic > div, .insta-grid-mosaic-item    {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insta-grid-mosaic {
+
+    flex-direction: column;
+}
+
+.insta-grid-mosaic-container {
+    background-color: #fefefe;
+}
+
+.insta-grid-mosaic-item {
+    height: 100%;
+}
+
+.insta-grid-mosaic-item:nth-child(even) {
+    background-color: lightblue !important;
+}
+
+.insta-grid-mosaic-item:nth-child(odd) {
+    background-color: #efefef !important;
+}
+
+.insta-grid-column, .insta-grid-mosaic-item{
+    background-size: cover;
+    background-position: center;
+}

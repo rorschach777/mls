@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Wildflowers from '../components/Wildflowers';
+// import InstaPhoto from '../components/InstaPhoto.tsx';
+
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
         <span>Marissa Leigh Sweitzer</span>
         <span>Under Construction</span>
       </div>
+
+      {/* <Wildflowers/> */}
+      {/* <InstaPhoto/> */}
     </main>
   )
 }
