@@ -8,13 +8,13 @@ import Guestbook from '@/components/Guestbook';
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/* <div className="centered-message">
+      <div className="centered-message">
         <span>Marissa Leigh Sweitzer</span>
         <span>Under Construction</span>
-      </div> */}
-
+      </div>
+{/* 
       <Wildflowers/>
-      <Guestbook/>
+      <Guestbook/> */}
       {/* <InstaPhoto/> */}
     </main>
   )
