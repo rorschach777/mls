@@ -1,0 +1,22 @@
+p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #fafafa;
+
+}
+
+.blog-entry {
+    width: 108rem;
+    max-width: 100%;
+    padding: 1.8rem;
+    box-sizing: border-box;
+    margin: 4.5rem 0;
+}
+
+.blog-title {
+    font-family: 'nocturne-serif', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -.1rem;
+}

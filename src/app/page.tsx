@@ -4,7 +4,9 @@ import Wildflowers from '../components/Wildflowers';
 import Guestbook from '../components/Guestbook';
 import InstaPhoto from '../components/InstaPhoto.tsx';
 import Menu from '../components/Menu.tsx';
+import BlogEntry from '@/components/BlogEntry';
 import Header from '../components/Header';
+import Playlist from '../components/Playlist';
 import Head from 'next/head';
 
 export default function Home() {
@@ -20,8 +22,10 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
+      <BlogEntry/>
       {/* <Guestbook/> */}
       <InstaPhoto/>
+      <Playlist/>
     </main>
     </>
 
