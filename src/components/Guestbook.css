@@ -4,7 +4,7 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding: 2.5rem;
 
@@ -13,14 +13,16 @@
 
 .guestbook-entry {
     margin: 1.5rem 0 ;
-    font-size: 4rem;
-    line-height: 2.2rem;
-    font-family: 'volstead';
-    color: #d0d0d0;
+    font-size: 6rem;
+    line-height: 3.2rem;
+    /* font-family: 'Agustina-Signature'; */
+    font-family: 'The Philadelphia Story';
+    color: #fafafa;
     margin: 4.5rem 0;
     flex-basis: 50%;
     padding: 1.5rem;
     max-width: 90rem;
+    
 }
 
 @media only screen and (max-width: 48rem){
@@ -29,7 +31,10 @@
     }
 }
 .guestbook-entry > span {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-top: 0.5rem;
     display: block;
+    color: #949494;
+    margin-top: 1.5rem;
+
 }
