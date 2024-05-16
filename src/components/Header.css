@@ -1,0 +1,57 @@
+header {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    transition:  .5s ease;
+}
+
+header > * {
+    transition:  .5s ease;
+}
+
+header button, header img {
+    cursor: pointer;
+    transition: inherit;
+}
+
+header button {
+    padding: .2rem 1.8rem;
+    font-size: inherit;
+    background-color: unset;
+    outline: unset;
+    border: 1px var(--mls-accent-color) solid;
+    border-radius: .5rem;
+
+}
+header button:hover {
+    background-color: var(--mls-accent-color);
+    color: white;
+}
+.logo > img {
+    width: 5rem;
+    height: 3.5rem;
+}
+.logo > span {
+    position: relative;
+    opacity: 0;
+    left: -.2rem;
+
+}
+.logo:hover {
+    transform: scale(1.3) translateX(1.1rem);
+}
+.logo:hover > span {
+    opacity: 1;
+}
+
+.logo {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    color: #cacaca;
+    font-size: 1.6rem;
+
+}

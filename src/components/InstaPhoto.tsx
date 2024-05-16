@@ -122,15 +122,16 @@ const generateInstaRow = () => {
 }
 
 
-export default function InstaPhoto() {
+const InstaPhoto = () => {
     return (
-        <div className="insta-grid">
-            {generateInstaRow()}
-
-
-        </div>
+        <section className="dark-bg">
+            <div className="insta-grid">
+                {generateInstaRow()}
+            </div>
+        </section>
     );
 
 }
 
+export default InstaPhoto;
 
