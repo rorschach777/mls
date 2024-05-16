@@ -5,6 +5,10 @@
     max-width: 90rem;
 }
 
+.insta-grid-row{
+    overflow: hidden;
+}
+
 .insta-grid-row:nth-child(even)  div.insta-grid-column:first-child,  .insta-grid-row:nth-child(even) div.insta-grid-mosaic-container:first-child {
   order: 2;
 }
@@ -22,12 +26,24 @@
 }
 
 
-.insta-grid-row > div, .insta-grid-mosaic, .insta-grid-mosaic > div, .insta-grid-mosaic-item    {
+.insta-grid-row > div, .insta-grid-mosaic, .insta-grid-mosaic > div, .insta-grid-mosaic-item {
     flex: 1;
     justify-content: center;
+}
+
+.insta-grid-row > div, .insta-grid-mosaic, .insta-grid-mosaic > div{
     align-items: center;
 }
 
+.insta-grid-column{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.insta-grid-mosaic-item    {
+    align-items: stretch;
+}
 
 .insta-grid-mosaic {
 
@@ -53,4 +69,27 @@
 .insta-grid-column, .insta-grid-mosaic-item{
     background-size: cover;
     background-position: center;
+    
+}
+
+div.ant-image  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;;
+}
+div.ant-image > img {
+    width: 190% !important;
+    /* min-height: 250px; */
+    position: absolute;
+    width: 100%;
+    display: block;
+    top: -10%;
+    left: -30%;
+    right: 0;
+    height: 120%;
+    margin: 0 auto;
 }
