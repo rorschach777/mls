@@ -35,22 +35,22 @@ const data =  [
 ];
 const Guestbook = () => {
     return(
-        <div className="guestbook">
-            {( data.map((c,i)=>{
-                return (
-                    <div className="guestbook-entry">
-                        <p>
-                            {c.content}
-                        </p>    
-                        <span>
-                            {c.author}
-                        </span>
-                    </div>
-                );
-            }))}
-        </div>
+        <section className="dark-bg">
+            <div className="guestbook ">
+                {( data.map((c,i)=>{
+                    return (
+                        <div className="guestbook-entry">
+                            <p>
+                                {c.content}
+                            </p>    
+                            <span>
+                                {c.author}
+                            </span>
+                        </div>
+                    );
+                }))}
+            </div>
+        </section>
     );
- 
-
 }
 export default Guestbook;

@@ -79,7 +79,7 @@ div.ant-image  {
     justify-content: center;
     overflow: hidden;
     height: 100%;
-    width: 100%;;
+    width: 100%;
 }
 div.ant-image > img {
     width: 190% !important;
