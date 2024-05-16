@@ -36,19 +36,26 @@ const data =  [
 const Guestbook = () => {
     return(
         <section className="dark-bg">
+            
             <div className="guestbook ">
-                {( data.map((c,i)=>{
-                    return (
-                        <div className="guestbook-entry">
-                            <p>
-                                {c.content}
-                            </p>    
-                            <span>
-                                {c.author}
-                            </span>
-                        </div>
-                    );
+                <div className="guestbook-title">
+                    <h2>Guestbook</h2>
+                </div>
+                <div className="wrapper">
+                    {( data.map((c,i)=>{
+                        return (
+                            <div className="guestbook-entry">
+                                <p>
+                                    {c.content}
+                                </p>    
+                                <span>
+                                    {c.author}
+                                </span>
+                            </div>
+                        );
                 }))}
+                </div>
+        
             </div>
         </section>
     );

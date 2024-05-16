@@ -23,7 +23,7 @@ export default function Home() {
       <Header/>
       <Wildflowers/>
       <BlogEntry/>
-      {/* <Guestbook/> */}
+      <Guestbook/>
       <InstaPhoto/>
       <Playlist/>
     </main>
