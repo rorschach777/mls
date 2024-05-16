@@ -4,5 +4,6 @@
     width: 42rem;
     margin: 0 auto;
     position: relative;
-    top: -18rem;
+    top: -15rem;
+    z-index: 2;
 }

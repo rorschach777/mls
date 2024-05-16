@@ -1,0 +1,22 @@
+.menu{
+    position: relative;
+    font-size: 2.5rem;
+    top: 1.5rem;
+    z-index: 2;
+}
+.menu nav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.menu nav ul li {
+    list-style: none;
+    padding:1.5rem;
+    font-size: 2.5rem;
+    font-family: 'nocturne-serif', serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -.1rem;
+}

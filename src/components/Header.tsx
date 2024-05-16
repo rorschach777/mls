@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
         <div className="logo">
-            <img src={mls.src} /> <span>| Marissa Leigh Sweitzer</span>
+            <img src={mls.src}/> <span>| Marissa Leigh Sweitzer</span>
         </div>
         <button>Donate</button>
     </header>
