@@ -13,12 +13,9 @@
     margin: 8.5rem auto;
 }
 .guestbook-title span{
-
     font-size: 6.5rem;
 }
-.guestbook-title span:hover {
-	filter: blur(1rem);
-}
+
 
 
 
@@ -59,5 +56,8 @@
     color: #949494;
     margin-top: 1.5rem;
 
+}
+.guestbook-title span:hover, .guestbook-entry > span:hover{
+    filter: blur(1rem)
 }
 

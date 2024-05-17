@@ -9,6 +9,7 @@ import BlogEntry from '@/components/BlogEntry';
 import Header from '../components/Header';
 import Playlist from '../components/Playlist';
 import Head from 'next/head';
+import Quote from '../components/Quote';
 
 export default function Home() {
   return (
@@ -23,10 +24,12 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
+      <Quote/>
       <BlogEntry/>
       <Guestbook/>
       <InstaPhoto/>
       <Playlist/>
+ 
     </main>
     </>
 

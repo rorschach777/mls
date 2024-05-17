@@ -1,0 +1,3 @@
+span.dream-text > span:hover {
+    filter: blur(1rem);
+}
