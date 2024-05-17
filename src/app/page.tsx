@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Wildflowers from '../components/Wildflowers';
 import Guestbook from '../components/Guestbook';
-import InstaPhoto from '../components/InstaPhoto.tsx';
-import Menu from '../components/Menu.tsx';
+import InstaPhoto from '../components/InstaPhoto';
+import Menu from '../components/Menu';
 import BlogEntry from '@/components/BlogEntry';
 import Header from '../components/Header';
 import Playlist from '../components/Playlist';
