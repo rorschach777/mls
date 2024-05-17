@@ -39,7 +39,17 @@ const Guestbook = () => {
             
             <div className="guestbook ">
                 <div className="guestbook-title">
-                    <h2>Guestbook</h2>
+                    <h2>
+                        <span>G</span>
+                        <span>u</span>
+                        <span>e</span>
+                        <span>s</span>
+                        <span>t</span>
+                        <span>b</span>
+                        <span>o</span>
+                        <span>o</span>
+                        <span>k</span>
+                    </h2>
                 </div>
                 <div className="wrapper">
                     {( data.map((c,i)=>{

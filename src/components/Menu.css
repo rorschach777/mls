@@ -21,3 +21,13 @@
     letter-spacing: -.1rem;
     cursor: pointer;
 }
+
+.menu nav ul li:hover {
+    background: rgb(61,76,255);
+    background: linear-gradient(94deg, rgba(61,76,255,1) 0%, rgba(247,0,148,1) 30%, rgba(94,51,242,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}

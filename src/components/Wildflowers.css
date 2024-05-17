@@ -1,20 +1,26 @@
 .wild-flowers{
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
     width: 110rem;
     max-width: 100%;
-    min-width: 25rem;
-    padding: 0;
+    padding: 0 10rem;
     margin: 0;
-    overflow: hidden;
     position: relative;
- 
+    cursor: pointer;
 }
+
 .wild-flowers img {
-    position: relative;
+    position: absolute;
+    top: 9.5rem;
     display: block;
     margin: 0 auto;
-    max-width: inherit;
-    top: 8.5rem;
+    height: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1;
+    max-width: 100%;
+    width: inherit;
 
-    
 }

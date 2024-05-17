@@ -9,10 +9,18 @@
     text-align: center;
 }
 
-.guestbook-title{
+.guestbook-title {
     margin: 8.5rem auto;
-    font-size: 8.5rem;
 }
+.guestbook-title span{
+
+    font-size: 6.5rem;
+}
+.guestbook-title span:hover {
+	filter: blur(1rem);
+}
+
+
 
 .guestbook .wrapper {
     width: 100vw;
@@ -52,3 +60,4 @@
     margin-top: 1.5rem;
 
 }
+

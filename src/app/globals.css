@@ -86,6 +86,7 @@ section.dark-bg{
   padding: 0;
   margin: 0;
   font-size: 62.5%;
+  transition: all .5s ease;
 }
 
 html,
@@ -137,4 +138,7 @@ a {
 .u-center-content{
   display: block; 
   margin: 0 auto;
+}
+.u-hide {
+  opacity: 0;
 }

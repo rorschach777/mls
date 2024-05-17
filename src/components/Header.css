@@ -5,12 +5,10 @@ header {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    transition:  .5s ease;
+    /* transition:  .5s ease; */
 }
 
-header > * {
-    transition:  .5s ease;
-}
+
 
 header button, header img {
     cursor: pointer;
