@@ -14,7 +14,7 @@ import Quote from '../components/Quote';
 export default function Home() {
   return (
     <>
-   <Head>
+    <Head>
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
     </Head>
     <main className={styles.main}>
@@ -24,13 +24,11 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
-{/* 
-      <BlogEntry/>
-      <Guestbook/>
+      {/* <Guestbook/> */}
+      {/* <BlogEntry/>
       <InstaPhoto/> */}
       {/* <Playlist/> */}
- 
-    </main>
+     </main>
     </>
 
   )

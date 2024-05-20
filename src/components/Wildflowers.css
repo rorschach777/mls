@@ -4,10 +4,11 @@
     overflow: hidden;
     width: 110rem;
     max-width: 100%;
-    padding: 0 10rem;
+    padding: 30rem;
     margin: 0;
     position: relative;
     cursor: pointer;
+
 }
 
 .wild-flowers img {
@@ -20,23 +21,27 @@
     left: 0;
     right: 0;
     z-index: 1;
+    width: 90%;
     max-width: 100%;
-    width: inherit;
+
 
 }
 
 .wild-flowers ~ .quote {
     position: relative;
-    top: -3.8rem;
-    z-index: 2;
+    top: -8.8rem;
+    z-index: 3;
 }
 
 .lifetime {
     position: relative;
-    top: -1.5rem;
+    top: -7.5rem;
     font-size: 1.8rem;
     color: lightgray;
     font-family: 'nocturne-serif', serif;
     font-weight: 500;
     font-style: italic;
+    background-color: #171717;
+    padding: 1.5rem;
+    z-index: 2;
 }

@@ -1,20 +1,15 @@
 
 
-.guestbook {
-    font-size: 6.5rem;
- 
-}
-
 .guestbook h2 {
     text-align: center;
    font-family: 'The Philadelphia Story';
 }
 
 .guestbook-title {
-    margin: 8.5rem auto;
+    margin: 6.5rem auto;
 }
 .guestbook-title span{
-    font-size: 6.5rem;
+    font-size: 5.5rem;
 }
 
 
@@ -34,17 +29,24 @@
     font-weight: 500;
     font-style: italic;
     letter-spacing: -.1rem;
-    color: #fafafa;
-    margin: 4.5rem 0;
-    flex-basis: 33%;
-    padding: 1.5rem;
+    padding: 1.8rem;
     max-width: 90rem;
-    
+    flex-basis: 33%;
+
 }
-.guestbook-entry > p {
-    font-size: 2.3rem;
-    line-height: 3.2rem;
+.guestbook-entry > span.dream-text {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    color: #bababa;
+    border-bottom: 1px #949494 solid;
+   padding-bottom: 1.5rem;
 }
+
+.guestbook-entry > span.dream-text:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 76.8rem){
     .guestbook-entry {
@@ -64,8 +66,5 @@
     color: #949494;
     margin-top: 1.5rem;
 
-}
-.guestbook-title span:hover, .guestbook-entry > span:hover{
-    filter: blur(1rem)
 }
 
