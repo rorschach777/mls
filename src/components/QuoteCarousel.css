@@ -1,0 +1,24 @@
+.quote-carousel {
+    padding: 2.5rem 1.5rem;
+    box-sizing: border-box;
+    font-family: 'mls';
+    width: 100%;
+    position: relative;
+    top: -8rem;
+    text-align: center;
+}
+.quote-carousel .dream-text{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 7.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media only screen  and (max-width: 48rem) {
+    .quote-carousel {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+}

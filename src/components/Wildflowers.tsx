@@ -22,7 +22,7 @@ const Wildflowers = () => {
           <img src={`${  backgroundColor.src }`}/>
           <img className={hover ? 'u-hide' : ''} src={`${  background.src }`}/> 
         </div>
-        <Quote text="MarissaLeighSweitzer"/>
+        <Quote text="Marissa Leigh Sweitzer"/>
         <span className="lifetime">December 31st, 1985 - May 20th, 2023</span>
         {/* <BePostiveBanner/> */}
       </>

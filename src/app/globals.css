@@ -143,3 +143,16 @@ a {
   opacity: 0;
 }
 
+
+@font-face {
+  font-family: 'mls';
+  font-weight: 600;
+  src: url("/fonts/the-philadelphia-story.ttf");
+}
+
+
+@font-face {
+  font-family: 'mls-bc';
+  src: url("/fonts/BigCaslon.ttf");
+}
+

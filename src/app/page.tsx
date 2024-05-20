@@ -11,6 +11,7 @@ import Playlist from '../components/Playlist';
 import Head from 'next/head';
 import Quote from '../components/Quote';
 import { useEffect } from 'react';
+import QuoteCarousel from '../components/QuoteCarousel';
 
 export default function Home() {
 
@@ -30,7 +31,9 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
-      {/* <Guestbook/> */}
+      <QuoteCarousel/>
+      <Guestbook/>
+  
       {/* <BlogEntry/>
       <InstaPhoto/> */}
       {/* <Playlist/> */}

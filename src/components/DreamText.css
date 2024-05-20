@@ -1,12 +1,9 @@
-@font-face {
-    font-family: 'mls';
-    font-weight: 600;
-    src: url("/fonts/the-philadelphia-story.ttf");
-  }
-.dream-text > span {
+.wild-flowers ~ .quote .dream-text span{
     font-family: 'mls';
 }
 
-span.dream-text > span:hover {
+.dream-text span:hover  {
     filter: blur(1rem);
+    transform: scale(1.1);
+   
 }

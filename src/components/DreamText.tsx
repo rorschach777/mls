@@ -8,7 +8,7 @@ type DreamTextProps = {
 const DreamText : FunctionComponent<DreamTextProps> = (props) => {
     return(
         <span className="dream-text">
-            { props.text.split('').map((cur : String, i : number) => { return <span key={`dream-text-span-${i}`}>{cur}</span> })}
+            { props.text.split(' ').map((cur : String, i : number) => { return <span key={`dream-text-span-${i}`}>{cur}&nbsp;</span> })}
         </span>
     );
 }

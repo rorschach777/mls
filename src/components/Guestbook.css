@@ -25,8 +25,8 @@
 
 .guestbook-entry {
     margin: 1.5rem 0 ;
-    font-family: 'nocturne-serif', serif;
-    font-weight: 500;
+    font-family: 'mls-bc', serif;
+    font-weight: 300;
     font-style: italic;
     letter-spacing: -.1rem;
     padding: 1.8rem;
@@ -40,12 +40,14 @@
     color: #bababa;
     border-bottom: 1px #949494 solid;
    padding-bottom: 1.5rem;
+   display: flex;
+   flex-wrap: wrap;
 }
 
-.guestbook-entry > span.dream-text:hover {
+/* .guestbook-entry > span.dream-text:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
+} */
 
 
 @media only screen and (max-width: 76.8rem){

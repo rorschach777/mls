@@ -2,7 +2,7 @@
     position: relative;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    width: 110rem;
+    width: 80rem;
     max-width: 100%;
     padding: 30rem;
     margin: 0;
@@ -35,7 +35,7 @@
     top: -7.5rem;
     font-size: 1.8rem;
     color: lightgray;
-    font-family: 'nocturne-serif', serif;
+    font-family: 'mls-bc', serif;
     font-weight: 500;
     font-style: italic;
     background-color: #171717;

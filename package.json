@@ -14,7 +14,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-spotify-embed": "^2.0.4",
-    "react-spotify-player": "^1.0.4"
+    "react-spotify-player": "^1.0.4",
+    "react-text-rotator": "^1.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",

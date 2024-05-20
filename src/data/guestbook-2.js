@@ -6,11 +6,7 @@ export const guestbookData = {
             author: "Lindsay Peoples (Pelletier)",
             visible: true,
         },
-        {
-            content: "I met Marissa at a JRNY Kids meeting. We were the only girls that night. I was not wanting to speak up my ideas until she did and Pastor Ian loved it.! I felt then encouraged to speak up and my idea was one of the best of the night! We both high fived each other and said “Girl Power” I will always speak my mind and encourage others to do even if we are intimidated. Marissa - I love you! So glad we became friends. See you soon.", 
-            author: "Tina Calvo",
-            visible: true,
-        },
+    
         {
             content: "Singing bridesmaids at the bridal shower!",
             author: "Nicole",
@@ -21,18 +17,14 @@ export const guestbookData = {
             author: "Jim and your friends from Sandier Methodist Church. ",
             visible: true
         },
-        {
-            content: "Marissa was asked to train me as an usher. She was running a few minutes late and ran around the corner and said “Sorry! I was chatting away!” I immediately fell in love with her energy and bubbly spirit. I t was Valentines Day and she had made this special oil blend for everyone on the serve team that day. Although we had just met she made sure I got one. That meant so much to me. I also did a home group with her and really enjoyed getting to know her better. What always stood out was her love for Jesus. I know she’s dancing with Jesus and I look forward joining that dance party one day.",
-            author: "Maggie Boshart",
-            visible: true
-        },
+     
         {
             content: "My favorite memory is when Marissa showed up with an arm load of pumpkins to our fall Festival. So much love & light! So giving!",
             author: "Ashley Bannan",
             visible: true
         },
         {
-            content: "We loved coming to game night at Mark and Marissa's house. She also bought us one of our favorite weeding gifts. I still have it, it’s a gray Hippo cookie jar!",
+            content: "We loved coming to game night at Mark and Marissa's house. She also bought us one of our favorite wedding gifts. I still have it, it’s a gray Hippo cookie jar!",
             author: "Lacey & Steven",
             visible: true
         },
@@ -47,17 +39,13 @@ export const guestbookData = {
             visible: true
         },
         {
-            content: "From the time Marissa started to speak she learned I was her “Aunt” and throughout all her years every single time sh’d call me “Aunt E” it always filled my heart with a level of joy that was indescribable. I will be grateful into eternity for her voice in my heart and the honor of being her Aunt E in the Lord. My love for her into eternity. ",
+            content: "From the time Marissa started to speak she learned I was her “Aunt” and throughout all her years every single time she’d call me “Aunt E” it always filled my heart with a level of joy that was indescribable. I will be grateful into eternity for her voice in my heart and the honor of being her Aunt E in the Lord. My love for her into eternity. ",
             author: "Aunt E. ",
             visible: true
         },
+    
         {
-            content: "Marissa... The yearbook queen!",
-            author: "Anonymous",
-            visible: true
-        },
-        {
-            content: "The Giant Smiles and Jumping Selfie from 6 feet away on the Day you guys became “homeless” March 31 2020 says it all. You guys became my friends through all the home transition craziness and will always bring a smile to my face when I think about that moment.",
+            content: "The Giant Smiles and Jumping Selfie from 6 feet away on the Day you guys became “homeless” March 31st, 2020 says it all. You guys became my friends through all the home transition craziness and will always bring a smile to my face when I think about that moment.",
             author: "Jeff Bannan. ",
             visible: true
         },
@@ -77,7 +65,7 @@ export const guestbookData = {
             visible: true
         },
         {
-            content: "I’ll never forget how smiley and welcoming your goofy she was. I’ll never forget her adding a pocket for my dress in a wedding to hold my pump. She was so helpful and loving, she will be missed!",
+            content: "I’ll never forget how smiley and welcoming goofy she was. I’ll never forget her adding a pocket for my dress in a wedding to hold my pump. She was so helpful and loving, she will be missed!",
             author: "Alisa Calvo",
             visible: true
         },
@@ -92,12 +80,18 @@ export const guestbookData = {
             visible: true
         },
         {
-            content: "I remember when Marissa and I first met we were laughing because our husbands had political t-shirts on and we were all dressed up. We both thought it was going to be a fun friendship because we had so much in common. We talked and texted but we never got to hang out. I'm devastated for her loved ones and that her kids will grow up without her but her legacy lives on and we were all blessed to have known her. Whether for a week, a month a year, or her whole life.",
-            author: "Lauren Sweeney",
+            content: "Marissa volunteered to help me disciple some freshmen women in the Inter Varsity group at Ursinus college. I was who thankful for her help! I’ll never forget the day she drove over to campus and told us about her new boyfriend Mark! There was so much joy! I was blessed to know here!",
+            author: "Liz Presutti",
             visible: true
         },
         {
-            content: "Loved her willingness to share — she had a heart to give of herself, her knowledge and her smile. She was determined and gave her all towards what she put her mind towards. ",
+            content: "Marissa was asked to train me as an usher. She was running a few minutes late and ran around the corner and said “Sorry! I was chatting away!” I immediately fell in love with her energy and bubbly spirit. It was Valentines Day and she had made this special oil blend for everyone on the serve team that day. Although we had just met she made sure I got one. That meant so much to me. I also did a home group with her and really enjoyed getting to know her better. What always stood out was her love for Jesus. I know she’s dancing with Jesus and I look forward joining that dance party one day.",
+            author: "Maggie Boshart",
+            visible: true
+        },
+     
+        {
+            content: "Loved her willingness to share — she had a heart to give. She was determined and gave her all towards what she put her mind towards. ",
             author: "Anonymous",
             visible: true
         },
@@ -111,18 +105,14 @@ export const guestbookData = {
             author: "Love Pam Jones, RN ",
             visible: true
         },
-        {
-            content: "Marissa volunteered to help me disciple some freshmen women in the Inter Varsity group at Ursinus college. I was who thankful for her help! I’ll never forget the day she drove over to campus and told us about her new boyfriend Mark! There was so much joy! I was blessed to know here!",
-            author: "Liz Presutti",
-            visible: true
-        },
+   
         {
             content: "JBF sales, Villa Veto, Home Group, Coffee Dates, My 30th Birthday Party, Tacos, Tie Dye, La Croix crew Halloween",
             author: "Sydney Moutney ",
             visible: true
         },
         {
-            content: "I loved singing Christmas Carols with Marissa with my children and you Ben as we drove around Scranton looking at the lights.",
+            content: "I loved singing Christmas Carols with Marissa with my children as we drove around Scranton looking at the lights.",
             author: "Val",
             visible: true
         },
@@ -131,11 +121,13 @@ export const guestbookData = {
             author: "Reggie Brown",
             visible: true
         },
+        
         {
             content: "Waiting to hear when I would be coming to support her for Olivia's birth, only to wake up to her already being here. Serving in the nursery for years together. ",
             author: "Mikaela",
             visible: true
         },
+        
         {
             content: "I met Marissa through the mom group chat. She was always encouraging everyone else. I am so grateful we were able to meet. ",
             author: "Lexi K. ",
@@ -152,6 +144,11 @@ export const guestbookData = {
             visible: true
         },
         {
+            content: "Marissa... The yearbook queen!",
+            author: "Anonymous",
+            visible: true
+        },
+        {
             content: "I loved how she smiled and how she she sewed everything with great joy. ",
             author: "Isabelle Cassano",
             visible: true
@@ -161,11 +158,7 @@ export const guestbookData = {
             author: "Love Karlee",
             visible: true
         },
-        {
-            content: "I remember serving with Marissa in the 4’s and 5’s (or maybe it was back when it was 3-5s). I just remember loving when I got to serve with her. She was so fun, and positive, and always made a point to talk to me and ask about the kids. I also loved how she could make any sad teary kid happy. We remember home group together at the Ferrier’s. Marissa was amazing I wish I had gotten to know her better.",
-            author: "Anonymous",
-            visible: true
-        },
+       
         {
             content: "Marissa inspired me to become a mother in her way of raising Ben. I always admired how she treated him, spoke to him and shaped him into the polite little man he is! I hope my son, can become as well behaved as Ben! I will never forget Marissa’s parenting style and will forever remember her! ",
             author: "Dalal Faiq",
@@ -176,33 +169,39 @@ export const guestbookData = {
             author: "Cousin Karlee ",
             visible: true
         },
+      
         {
-            content: "Marissa was takin us to the airport, but we had to stop at Wawa for “the best subs” in the world. She talked about these sandwiches for hours. We couldn’t leave Philly without them. ",
+            content: "I remember when Marissa and I first met we were laughing because our husbands had political t-shirts on and we were all dressed up. We both thought it was going to be a fun friendship because we had so much in common. We talked and texted but we never got to hang out. I'm devastated for her loved ones and that her kids will grow up without her but her legacy lives on and we were all blessed to have known her. Whether for a week, a month, a year, or her whole life.",
+            author: "Lauren Sweeney",
+            visible: true
+        },
+        {
+            content: "I remember serving with Marissa in the 4’s and 5’s (or maybe it was back when it was 3-5s). I just remember loving when I got to serve with her. She was so fun, and positive, and always made a point to talk to me and ask about the kids. I also loved how she could make any sad teary kid happy. Marissa was amazing I wish I had gotten to know her better.",
+            author: "Anonymous",
+            visible: true
+        },
+        {
+            content: "Marissa was taking us to the airport, but we had to stop at Wawa for “the best subs” in the world. She talked about these sandwiches for hours. We couldn’t leave Philly without them. ",
             author: "Uncle John & Cousin Kelly",
             visible: true
         },
         {
-            content: "Your mom was a ray of sunshine she made every person in the room feel special and like she’s known them for years. My favorite memory was a game night with your mom and dad. We were playing a game called uno Flip, however we refer to that as Devil Uno. We laughed so much that night . Love you both.",
-            author: "Cousin Amy. ",
-            visible: true,
-        },
-        {
-            content: "I live across the street from Mark and Marissa at. Our sons are the same age. I lays enjoyed chatting with Marissa. She was always so bubbly and energetic. Im sure she is talking Jesus’ ear off now. Im so grateful that she was trusting in Him. ",
-            author: "Joy"
-        },
-        {
-            content: "While “I’ve known Marissa a few years our friendship truly began about a year or so ago over my new found love of plants and both of us trying to get pregnant. She would always be there to answer my many plant questions and check in every month to see if I had “gotten knocked up yet” :). Her legacy lives on through her plants in my home but most impatiently the two beautiful lives she brought into this world ",
-            author: "Piper",
+            content: "I met Marissa at our Men’s group Picnic. Her smile and energy lit up the place!",
+            author: "Anonymous",
             visible: true
         },
         {
-            content: "I loved how Marissa was such a good cousin to Shelby.",
-            author: "Ross",
-            visible: false
+            content: "She was a ray of sunshine she made every person in the room feel special and like she’s known them for years. My favorite memory was a game night with your mom and dad. We were playing a game called uno Flip, however we refer to that as Devil Uno. We laughed so much that night . Love you both.",
+            author: "Cousin Amy.",
+            visible: false,
         },
         {
-            content: "I met Marissa at our Men’s group Picnic. Her smile and energy lit up the place!",
-            author: "Anonymous",
+            content: "I live across the street from Mark and Marissa at. Our sons are the same age. I always enjoyed chatting with Marissa. She was always so bubbly and energetic. I'm sure she is talking Jesus’ ear off now. Im so grateful that she was trusting in Him. ",
+            author: "Joy"
+        },
+        {
+            content: "While I’ve known Marissa a few years our friendship truly began about a year or so ago over my new found love of plants and both of us trying to get pregnant. She would always be there to answer my many plant questions and check in every month to see if I had “gotten knocked up yet”. Her legacy lives on through her plants in my home but most impatiently the two beautiful lives she brought into this world.",
+            author: "Piper",
             visible: true
         },
         {
@@ -211,7 +210,14 @@ export const guestbookData = {
             visible: true
         },
         {
-            content: "Ben & Olivia Ben when we would go to Ikea for organizing things (your mom loved things to be in order!) We would stop at Dunkin and she would toss you munchkins in your car seat as we drove! Olivia your mama was so proud of you. She loved you so much!",
+            content: "I loved how Marissa was such a good cousin to Shelby.",
+            author: "Ross",
+            visible: false
+        },
+     
+     
+        {
+            content: "Ben & Olivia, Ben when we would go to Ikea for organizing things (your mom loved things to be in order!) We would stop at Dunkin and she would toss you munchkins in your car seat as we drove! Olivia your mama was so proud of you. She loved you so much!",
             author: "Julia Walsh",
             visible: false
         },
@@ -219,6 +225,11 @@ export const guestbookData = {
             content: "Marissa was the most beautiful, kind, talented soul. She would come to our ouse at Christmas time and she was always smiling and fun. I will miss her dearly — but she is always in our hearts. She made clothes and pillows and was so talented with just about anything she touched. ",
             author: "Aunt Cheryl & Uncle Bruce",
             visible: true
-        }
+        },
+        {
+            content: "I met Marissa at a JRNY Kids meeting. We were the only girls that night. I was not wanting to speak up my ideas until she did and Pastor Ian loved it! I felt then encouraged to speak up and my idea was one of the best of the night! We both high fived each other and said “Girl Power” I will always speak my mind and encourage others to do even if we are intimidated. Marissa - I love you! So glad we became friends. See you soon.", 
+            author: "Tina Calvo",
+            visible: true,
+        },
     ]
 }
