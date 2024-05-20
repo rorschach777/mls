@@ -1,6 +1,6 @@
 'use client'
 
-import { render } from 'react-dom';
+
 import '../components/Guestbook.css';
 import { guestbookData } from '../data/guestbook-2' 
 
