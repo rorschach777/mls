@@ -4,7 +4,7 @@ header {
     padding: 1.5rem;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* transition:  .5s ease; */
 }
 
@@ -47,9 +47,13 @@ header button:hover {
 
 .logo {
     display: flex;
-    justify-self: space-between;
+    justify-self: center;
     align-items: center;
     color: #cacaca;
     font-size: 1.6rem;
+    text-align: center;
+}
 
+header .quote {
+    font-size: 2.5rem !important;
 }

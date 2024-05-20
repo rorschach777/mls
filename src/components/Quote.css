@@ -16,3 +16,11 @@
 .quote > span:hover{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 48rem) {
+    .quote > span
+    {
+        font-size: 6.5rem;
+    
+    } 
+}

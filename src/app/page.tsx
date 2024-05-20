@@ -24,11 +24,11 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
-      <Quote/>
+
       <BlogEntry/>
       <Guestbook/>
       <InstaPhoto/>
-      <Playlist/>
+      {/* <Playlist/> */}
  
     </main>
     </>

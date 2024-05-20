@@ -2,11 +2,12 @@
 
 .guestbook {
     font-size: 6.5rem;
-    font-family: 'The Philadelphia Story';
+ 
 }
 
 .guestbook h2 {
     text-align: center;
+   font-family: 'The Philadelphia Story';
 }
 
 .guestbook-title {
@@ -15,8 +16,6 @@
 .guestbook-title span{
     font-size: 6.5rem;
 }
-
-
 
 
 .guestbook .wrapper {
@@ -31,7 +30,10 @@
 
 .guestbook-entry {
     margin: 1.5rem 0 ;
-    /* font-family: 'Agustina-Signature'; */
+    font-family: 'nocturne-serif', serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: -.1rem;
     color: #fafafa;
     margin: 4.5rem 0;
     flex-basis: 33%;
@@ -40,8 +42,14 @@
     
 }
 .guestbook-entry > p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 3.2rem;
+}
+
+@media only screen and (max-width: 76.8rem){
+    .guestbook-entry {
+        flex-basis: 50%;
+    }
 }
 
 @media only screen and (max-width: 48rem){

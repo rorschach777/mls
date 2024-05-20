@@ -24,3 +24,19 @@
     width: inherit;
 
 }
+
+.wild-flowers ~ .quote {
+    position: relative;
+    top: -3.8rem;
+    z-index: 2;
+}
+
+.lifetime {
+    position: relative;
+    top: -1.5rem;
+    font-size: 1.8rem;
+    color: lightgray;
+    font-family: 'nocturne-serif', serif;
+    font-weight: 500;
+    font-style: italic;
+}
