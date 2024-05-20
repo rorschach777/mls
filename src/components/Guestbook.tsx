@@ -1,6 +1,4 @@
 'use client'
-
-
 import '../components/Guestbook.css';
 import { guestbookData } from '../data/guestbook-2' 
 
