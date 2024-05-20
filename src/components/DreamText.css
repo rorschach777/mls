@@ -5,5 +5,11 @@
 .dream-text span:hover  {
     filter: blur(1rem);
     transform: scale(1.1);
-   
+}
+
+@media  only screen and (max-width: 48rem) {
+    .dream-text span:hover  {
+        filter: unset;
+        transform: unset;
+    }
 }
