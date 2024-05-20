@@ -15,11 +15,13 @@ import QuoteCarousel from '../components/QuoteCarousel';
 
 export default function Home() {
 
-
+  useEffect(() => {
+    document.title = "Marissa Leigh Sweitzer | In Loving Memory ";
+  }, []);
   return (  
     <>
     <Head>
-        <title>Marissa Sweitzer | In Loving Memory</title>
+
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
     </Head>
     <main className={styles.main}>
