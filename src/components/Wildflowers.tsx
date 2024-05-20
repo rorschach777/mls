@@ -13,13 +13,15 @@ const Wildflowers = () => {
     },[])
 
 
-
+   const handleHover = () => {
+     colorImage ? useColorImage(false) : useColorImage(true);
+   }
 
     return(
       <>
         <div 
-        onMouseEnter={(e)=>useColorImage(true)} 
-        onMouseOut={(e)=>{useColorImage(false)}}
+        onMouseEnter={handleHover} 
+        onMouseOut={handleHover}
         className={`${'wild-flowers'}`}>
           <img src={`${  backgroundColor.src }`}/>
           <img className={colorImage ? 'u-hide' : ''} src={`${  background.src }`}/> 
