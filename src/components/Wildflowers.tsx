@@ -3,29 +3,27 @@
 import background from '../assets/wildflowers.png'
 import backgroundColor from '../assets/wildflowers-color.png'
 import BePostiveBanner from './BePositiveBanner';
+import { MouseEvent } from 'react';
 import  {useState,useEffect} from 'react';
 import Quote from '../components/Quote'
 import './Wildflowers.css';
 const Wildflowers = () => {
-    const [colorImage, useColorImage] = useState(false);
+    const [hover,  setHover] = useState(false);
     useEffect(()=>{
-      useColorImage(false);
+      setHover(false);
     },[])
 
+ 
 
-   const handleHover = () => {
-     colorImage ? useColorImage(false) : useColorImage(true);
-   }
-
+ 
     return(
       <>
         <div 
-        onMouseEnter={handleHover} 
-        onMouseOut={handleHover}
+        onMouseEnter={()=>setHover(true)} 
+        onMouseLeave={()=>setHover(false)}
         className={`${'wild-flowers'}`}>
           <img src={`${  backgroundColor.src }`}/>
-          <img className={colorImage ? 'u-hide' : ''} src={`${  background.src }`}/> 
-   
+          <img className={hover ? 'u-hide' : ''} src={`${  background.src }`}/> 
         </div>
         <Quote text="MarissaLeighSweitzer"/>
         <span className="lifetime">December 31st, 1985 - May 20th, 2023</span>
