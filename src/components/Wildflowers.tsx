@@ -12,9 +12,6 @@ const Wildflowers = () => {
     useEffect(()=>{
       setHover(false);
     },[])
-
- 
-
  
     return(
       <>

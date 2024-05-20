@@ -8,7 +8,6 @@
     margin: 0;
     position: relative;
     cursor: pointer;
-
 }
 
 .wild-flowers img {
@@ -22,9 +21,7 @@
     right: 0;
     z-index: 1;
     width: 90%;
-    max-width: 100%;
-
-
+  
 }
 
 .wild-flowers ~ .quote {
@@ -45,3 +42,15 @@
     padding: 1.5rem;
     z-index: 2;
 }
+
+/* @media only screen and (max-width: 39rem) {
+    .wild-flowers {
+        transform: scale(.8);
+    }
+    .wild-flowers img {
+        max-width: 90%;
+    } 
+    .lifetime {
+        top: -9rem;
+    }
+} */

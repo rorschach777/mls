@@ -11,8 +11,9 @@ import Playlist from '../components/Playlist';
 import Head from 'next/head';
 import Quote from '../components/Quote';
 
+
 export default function Home() {
-  return (
+  return (  
     <>
     <Head>
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
