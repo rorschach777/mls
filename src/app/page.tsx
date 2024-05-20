@@ -19,7 +19,7 @@ export default function Home() {
   return (  
     <>
     <Head>
-
+        <title>Marissa Sweitzer | In Loving Memory</title>
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
     </Head>
     <main className={styles.main}>
