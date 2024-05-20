@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTextRotator from "react-text-rotator";
+// import ReactTextRotator from "react-text-rotator";
 import DreamText from './DreamText';
 import './QuoteCarousel.css';
 
