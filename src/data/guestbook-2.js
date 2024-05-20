@@ -50,7 +50,7 @@ export const guestbookData = {
             visible: true
         },
         {
-            content: "The way your family came together during such a hard time is an estimate to love you all share. It is definitely a dark season but there are still bright moments that shine through. Try and keep the same faith that she had. ",
+            content: "The way your family came together during such a hard time is an testament to love you all share. It is definitely a dark season but there are still bright moments that shine through. Try and keep the same faith that she had. ",
             author: "John Rogers",
             visible: true
         },
