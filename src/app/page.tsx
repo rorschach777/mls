@@ -11,7 +11,12 @@ import Playlist from '../components/Playlist';
 import Head from 'next/head';
 import Quote from '../components/Quote';
 
-
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Marissa Leigh Sweitzer',
+  description: 'In Loving Memory | December 31st, 1985 - May 20th, 2023',
+};
 export default function Home() {
   return (  
     <>
