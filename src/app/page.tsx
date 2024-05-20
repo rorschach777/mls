@@ -24,10 +24,10 @@ export default function Home() {
       </div> */}
       <Header/>
       <Wildflowers/>
-
+{/* 
       <BlogEntry/>
       <Guestbook/>
-      <InstaPhoto/>
+      <InstaPhoto/> */}
       {/* <Playlist/> */}
  
     </main>
