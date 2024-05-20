@@ -202,7 +202,7 @@ export const guestbookData = {
         {
             content: "While I’ve known Marissa a few years our friendship truly began about a year or so ago over my new found love of plants and both of us trying to get pregnant. She would always be there to answer my many plant questions and check in every month to see if I had “gotten knocked up yet”. Her legacy lives on through her plants in my home but most impatiently the two beautiful lives she brought into this world.",
             author: "Piper",
-            visible: true
+            visible: false
         },
         {
             content: "First I want to share my best memory of your father. We were at Nana’s house in Ligonier and your dad came inside the crawl space with us and pretended to get electrocuted. It sounds scary but that was a true of example of you parent(s) goofiness. They are my favorite people. I looked so forward to seeing your parents at holidays. Your mom always gifted the purest things. All home made. Which was so special. I’ve always looked up to your parents since such a young age to sum it up, they are awesome. I am so thank fun for having been able to make these forever memories with them. ",
