@@ -26,7 +26,7 @@ const Guestbook = () => {
                 <div className="wrapper">
                     {( data.map((c,i)=>{
                         return (
-                            <div className="guestbook-entry">
+                            <div className="guestbook-entry" key={`guestbook-entry-${i}`}>
                                 <p>
                                     {c.content}
                                 </p>    

@@ -11,11 +11,15 @@ const Wildflowers = () => {
     useEffect(()=>{
       useColorImage(false);
     },[])
+
+
+
+
     return(
       <>
         <div 
-        onMouseEnter={()=>{useColorImage(true)}} 
-        onMouseLeave={()=>{useColorImage(false)}}
+        onMouseEnter={(e)=>useColorImage(true)} 
+        onMouseOut={(e)=>{useColorImage(false)}}
         className={`${'wild-flowers'}`}>
           <img src={`${  backgroundColor.src }`}/>
           <img className={colorImage ? 'u-hide' : ''} src={`${  background.src }`}/> 

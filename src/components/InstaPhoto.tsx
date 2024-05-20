@@ -85,7 +85,7 @@ const generateInstaRow = () => {
 
     return data.imageRows.map((c: ImageRow, i: number) => {
         return (
-            <div className="insta-grid-row">
+            <div className="insta-grid-row" key={`insta-grid-row-${i}`}>
                 <div className="insta-grid-column">
                     <Image
                         src={`${c.image1.url}`}
