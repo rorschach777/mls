@@ -1,4 +1,4 @@
-'use client'
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import Wildflowers from '../components/Wildflowers';
@@ -15,20 +15,15 @@ import QuoteCarousel from '../components/QuoteCarousel';
 
 export default function Home() {
 
-  useEffect(() => {
-    document.title = "Marissa Leigh Sweitzer | In Loving Memory ";
-  }, []);
   return (  
     <>
     <Head>
-
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+        <title>Marissa Leigh Sweitzer | In Loving Memory</title>
     </Head>
     <main className={styles.main}>
-      {/* <div className="centered-message">
-        <span>Marissa Leigh Sweitzer</span>
-        <span>Under Construction</span>
-      </div> */}
       <Header/>
       <Wildflowers/>
       <QuoteCarousel/>
@@ -37,7 +32,7 @@ export default function Home() {
       {/* <BlogEntry/>
       <InstaPhoto/> */}
       {/* <Playlist/> */}
-     </main>
+    </main>
     </>
 
   )

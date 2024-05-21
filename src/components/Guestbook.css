@@ -26,8 +26,8 @@
 
 .guestbook-entry {
     margin: 1.5rem 0 ;
-    font-family: 'mls-bc', serif;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-style: italic;
     letter-spacing: -.1rem;
     padding: 1.8rem;
