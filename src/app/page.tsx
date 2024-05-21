@@ -21,7 +21,6 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.typekit.net/sza1dmj.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
-        <title>Marissa Leigh Sweitzer | In Loving Memory</title>
     </Head>
     <main className={styles.main}>
       <Header/>
